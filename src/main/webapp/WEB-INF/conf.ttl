@@ -60,13 +60,13 @@
 ## 	IRIs namespace we use to replace the webapp base (eg. http://localhost:8080/lodview/), an
 ##	installation on dbpedia domain should use <http://dbpedia.org/resource/> 
 	
-#	conf:IRInamespace <http://dbpedia.org/resource/>  ;
-conf:IRInamespace <https://culturalgems.jrc.ec.europa.eu/>  ;
+	conf:IRInamespace <http://dbpedia.org/resource/>  ;
+# conf:IRInamespace <https://culturalgems.jrc.ec.europa.eu/>  ;
 
 ## 	EndPoint
 
-#	conf:endpoint <http://dbpedia.org/sparql>;
-conf:endpoint <https://publications.europa.eu/webapi/rdf/sparql>;
+	conf:endpoint <http://dbpedia.org/sparql>;
+#conf:endpoint <https://publications.europa.eu/webapi/rdf/sparql>;
 	conf:endpointType "virtuoso"; 	## 	just "virtuoso" is handled right now, this will add some "rawdata" 
 									##	options in the footer, leave this blank if you don't want these links
 
